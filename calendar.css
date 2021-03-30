@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#calendar{
+  border: 5px solid rgb(66, 24, 39);
+  color: rgb(245, 244, 223);
+  margin: 0 auto;
+  border-collapse: collapse;
+  height: 50vh;
+  width: 50vw;
+  background-color: #867d7d57;
+  
+}
+
+#calendar thead tr th{
+    background-color: rgba(116, 54, 74, 39%);
+    color: #fff;
+    font-size: 25pt;
+    padding: 10px;
+    font-family: sans-serif;
+    
+}
+
+#calendar tbody tr td{
+    border: 1px dashed rgb(66, 24, 39);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 30pt;
+    text-align: right;
+    vertical-align: top;
+}
+
+#calendar tbody tr td:last-child{
+    background-color:rgba(182, 138, 150, 0.39) ;
+}
+
+#date-time{
+ 
+    width: 50vw;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#date{
+    flex-grow: 1;
+    color: #fff;
+    text-align: start;
+    font-size: 28pt;
+    font-family: sans-serif;
+    padding:20px 0;
+    border-bottom: 1px solid rgb(66, 24, 39);
+}
+.clock{
+    flex-grow: 1;
+    color: #fff;
+    font-size: 35pt;
+    margin: 5px auto;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px;
+    width: 200px;
+    font-family: sans-serif;
+    border: 2px solid rgb(66, 24, 39);
+    border-radius: 10px;
+    background-color:  rgba(116, 54, 74, 39%);
+}
+
+.clock-ampm{
+    font-size: 20pt;
+}
+
